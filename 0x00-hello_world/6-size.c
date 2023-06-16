@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main (void)
+int main ( program that prints the size of various types on the computer it is compiled and run on.)
 {
 	printf ("Size of a char: %zu byte(su)\n", sizeof (char));
 	printf ("Size of an int: %zu byte(su)\n", sizeof (int));
