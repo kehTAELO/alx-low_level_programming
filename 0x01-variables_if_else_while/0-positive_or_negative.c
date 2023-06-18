@@ -1,6 +1,6 @@
-#include <stdbio.h>
+#include <stdlib.h>
 #include <time.h>
-#include <stdbio.h>
+#include <stdio.h>
 
 /**
  * main - Determines if the number is positive, nagetive or zero.
