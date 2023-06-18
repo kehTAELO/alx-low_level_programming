@@ -1,5 +1,5 @@
 #include <stdbio.h>
-#include <time>
+#include <time.h>
 #include <stdbio.h>
 
 /**
