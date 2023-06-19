@@ -1,4 +1,4 @@
-#include <stdbio>
+#include <stdio.h>
 /**
  * main - Entry piont
  * Description - 'prints alphabets in a lowercase and uppercase'
