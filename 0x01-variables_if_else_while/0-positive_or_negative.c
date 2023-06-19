@@ -3,8 +3,8 @@
 #include <stdio.h>
 /**
  *main - Entry point
- *Description: 'Determines if the number is positive, negative or zero'
- *Return: Always 0
+ *Description: 'the last digit of a number'
+ *Return: always 0
  */
 int main(void)
 {
@@ -12,6 +12,7 @@ int main(void)
 
         srand(time(0));
         n = rand() - RAND_MAX / 2;
+	return (0);
         if (n > 0)
         {
                 printf("%d is positive/n", n);
