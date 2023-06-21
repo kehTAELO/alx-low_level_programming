@@ -1,16 +1,15 @@
 #include <stdio.h>
-
 /**
- * main - prints numbers from 0 to 9.
- *
+ * main - entry point 
+ *description: ptints numbers from 0 to 9.
  * Return: Always 0
  */
 int main(void)
 {
-	int n;
-	for (n = 0; n <= 9; n++);
+	int i;
+	for (i = 0; i < 10; i++);
 	{
-		printf("%d", n);
+		printf("%d", i);
 	}
 	printf("\n");
 	return (0);
