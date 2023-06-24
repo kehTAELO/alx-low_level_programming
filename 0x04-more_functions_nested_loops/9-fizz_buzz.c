@@ -18,7 +18,7 @@ int main(void)
 	{
 		if (i % 15 == 0)
 			printf("fizzbuzz");
-		else if (i % 3 = o)
+		else if (i % 3 == 0)
 			printf("fizz");
 		else if (i % 5 == 0)
 			printf("buzz");
@@ -27,6 +27,6 @@ int main(void)
 		if (i < 100)
 			printf(" ");
 	}
-	printf("\n")
+	printf("\n");
 	return (0);
 }
