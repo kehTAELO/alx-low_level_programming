@@ -6,27 +6,31 @@
  * @size: size of the triangle
  */
 
-void print_triangles(int size)
+void print_triangle(int size)
 {
-	int row, hashes, spaces;
+	int inc1, inc2;
 
 	if (size <= 0)
 	{
-		_putchar('\n');
-	}
-	else
-	{
-		for (row = 1; row <= size; row++)
+		for ( inc1 = 1; inc1 <= size; inc1++)
 		{
-			for (spaces = size - row; spaces >= 1; spaces--)
+			for (( inc2 = size - inc1); inc2 > 0; inc2--)
 			{
-				 _putchar(' ');
+				putchar(' ');
 			}
-			for (hashes = 1; hashes <= row; hashes++)
+
+			for (inc2 = 0; inc2 < inc1; inc2++)
 			{
-				_putchar('#');
+				putchar('#');
 			}
-			_putchar('\n');
+
+			if (inc1 == size)
+			{
+				continue;
+			}
+
+			putchar('\n');
 		}
 	}
+	putchar('\n');
 }
