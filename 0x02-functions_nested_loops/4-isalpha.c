@@ -1,12 +1,20 @@
 #include "main.h"
-
 /**
- * _isalpha - Checks for aphabetic character
- * @c: The character to be checked
- * Return: 1 for aphabetic character or 0 for anything else
- */
-
-int _isalpha(int c)
+* main - check the code.
+*
+* Return: Always 0.
+*/
+int main(void)
 {
-	return ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= "z"));
+	int r;
+	r = _isalpha('H');
+_putchar(r + '0');
+r = _isalpha('o');
+_putchar(r + '0');
+r = _isalpha(108);
+_putchar(r + '0');
+r = _isalpha(';');
+_putchar(r + '0');
+_putchar('\n');
+return (0);
 }
