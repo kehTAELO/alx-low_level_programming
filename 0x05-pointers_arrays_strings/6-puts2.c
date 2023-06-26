@@ -19,7 +19,7 @@ void puts2(char *str)
 	t = longi - 1;
 	for (o = 0 ; o <= t ; o++)
 	{
-		if (O % 2 == 0)
+		if (o % 2 == 0)
 	{
 		putchar(str[o]);
 	}
